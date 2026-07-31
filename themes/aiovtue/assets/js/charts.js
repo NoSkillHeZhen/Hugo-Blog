@@ -5,6 +5,10 @@ import { initLazyImages } from './lazy-images.js'
 import { refreshMobileCardsListPage } from './home.js'
 
 let echartsScriptPromise = null
+const ECHARTS_FALLBACK_URLS = [
+  'https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js',
+  'https://unpkg.com/echarts@5.5.1/dist/echarts.min.js',
+]
 
 function normalizeCategory(value) {
   return String(value || '').trim().toLowerCase()
@@ -68,26 +72,33 @@ function loadEchartsScript() {
   const scriptUrl = chartEl?.dataset.echartsUrl
   if (!scriptUrl) return Promise.reject(new Error('echarts local url missing'))
 
-  const resolvedScriptUrl = new URL(scriptUrl, window.location.href).href
-  echartsScriptPromise = new Promise((resolve, reject) => {
-    const existing = Array.from(document.scripts).find((item) => item.src === resolvedScriptUrl)
+  const candidateUrls = [scriptUrl, ...ECHARTS_FALLBACK_URLS]
+
+  const loadScript = (url) => new Promise((resolve, reject) => {
+    const resolvedUrl = new URL(url, window.location.href).href
+    const existing = Array.from(document.scripts).find((item) => item.src === resolvedUrl)
     if (existing) {
       if (window.echarts?.init) {
         resolve(window.echarts)
         return
       }
       existing.addEventListener('load', () => resolve(window.echarts), { once: true })
-      existing.addEventListener('error', () => reject(new Error('echarts load failed')), { once: true })
+      existing.addEventListener('error', () => reject(new Error(`echarts load failed: ${url}`)), { once: true })
       return
     }
 
     const script = document.createElement('script')
-    script.src = scriptUrl
+    script.src = url
     script.defer = true
     script.onload = () => resolve(window.echarts)
-    script.onerror = () => reject(new Error('echarts load failed'))
+    script.onerror = () => reject(new Error(`echarts load failed: ${url}`))
     document.body.appendChild(script)
   })
+
+  echartsScriptPromise = candidateUrls.reduce(
+    (promise, url) => promise.catch(() => loadScript(url)),
+    Promise.reject(new Error('echarts load not started')),
+  )
 
   return echartsScriptPromise
 }
