@@ -4,9 +4,12 @@ name = "aiovtue-hugo-blog"
 compatibility_date = "2026-06-19"
 pages_build_output_dir = "./public"
 
+[assets]
+directory = "./public"
+
 # 在 Cloudflare Dashboard → Build 中设置：
 #   Build command: pnpm run build
 #   Build output directory: public
 #
-# npm run build 会在 CF 环境（CF_PAGES=1）自动下载 Hugo Extended 0.163.3。
+# npm run build 会在 CF 环境（CF_PAGES=1）自动下载 Hugo Extended 0.164.0。
 # 请勿使用裸命令 hugo，否则会落到 CF 默认的旧版本导致模板构建失败。

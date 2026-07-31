@@ -4,7 +4,7 @@ import { join } from "node:path";
 
 const ROOT = join(import.meta.dirname, "..");
 const LOCK_FILE = join(ROOT, ".hugo_build.lock");
-const HUGO_VERSION = process.env.HUGO_VERSION || "0.163.3";
+const HUGO_VERSION = process.env.HUGO_VERSION || "0.164.0";
 
 function needsBundledHugo() {
   return (
