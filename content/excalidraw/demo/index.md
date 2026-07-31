@@ -2,7 +2,7 @@
 title: 画板示例文章
 date: 2024-05-02
 description: Excalidraw 文章类型示例，具体位置在content\excalidraw\demo文件夹内部
-cover: "/hero/tt1.png"
+cover: "/hero/ysjg.jpg"
 categories:
   - 教程
 tags:
