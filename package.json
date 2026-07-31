@@ -11,10 +11,5 @@
   "devDependencies": {
     "decode-ico": "^0.4.1",
     "sharp": "^0.34.5"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "sharp"
-    ]
   }
 }
