@@ -32,7 +32,7 @@
 baseURL = 'https://blog.hezhen.cc/'
 locale = 'zh-cn'
 defaultContentLanguage = 'zh'
-title = 'HeZhen'          # 站点名称（浏览器标题、页脚版权等）
+title = "HeZhen's Blog"          # 站点名称（浏览器标题、页脚版权等）
 theme = 'aiovtue'           # 主题目录：themes/aiovtue/
 hasCJKLanguage = true      # 启用中文分词（搜索、摘要等）
 enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layouts/robots.txt）
@@ -173,7 +173,7 @@ enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layout
   [params.footer]
     since = 2026           # 版权起始年
     runtimeSince = '2026-07-30'   # 站点运行倒计时起点（YYYY-MM-DD）
-    icp = '<a href="https://icp.gov.moe/?keyword=20260802" target="_blank">萌ICP备20260802号</a>'
+    icp = '<a href="https://icp.gov.moe/?keyword=20260802" target="_blank" rel="noopener">萌ICP备20260802号</a>'
 
 # --- 首页公告栏（右侧域名列表）---
   # --- 首页文章列表布局 ---
@@ -218,7 +218,10 @@ enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layout
     rotateInterval = 5000  # 左侧随机文章轮播间隔（毫秒）
     [[params.notice.sections]]
       label = '--- 主域名 ---'
-      lines = ['daily.yybb.us', 'day.yybb.us']
+      lines = ['blog.hezhen.cc', 'hezhen.cc']
+    [[params.notice.sections]]
+      label = '--- 备用域名 ---'
+      lines = ['hugo-blog.2944879223.workers.dev']
     [[params.notice.sections]]
       label = '--- 这是公告 ---'
       lines = [
