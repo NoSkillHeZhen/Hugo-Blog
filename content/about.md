@@ -3,7 +3,7 @@
 title: "关于我"
 layout: "about"
 cover: "/hero/tt.jpg"
-date: 2026-08-01
+date: 2026-07-31
 tocStartLevel: 2
 tocEndLevel: 3
 ---
