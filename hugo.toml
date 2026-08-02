@@ -225,7 +225,7 @@ enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layout
     [[params.notice.sections]]
       label = '--- 这是公告 ---'
       lines = [
-        'Mail：ylzhaowilliam@qq.com',
+        'Mail：NoSkillHeZhen@outlook.com',
         'Github：https://github.com/NoSkillHeZhen',
       ]
 
@@ -247,7 +247,7 @@ enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layout
   #   color = '#1AAD19'
   [[params.social]]
     name = 'E-Mail'
-    link = 'mailto:ylzhaowilliam@qq.com'
+    link = 'mailto:NoSkillHeZhen@outlook.com'
     icon = 'ri:mail-line'
     color = '#8E71C1'
   [[params.social]]
