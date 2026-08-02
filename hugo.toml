@@ -172,7 +172,7 @@ enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layout
   # --- 页脚 ---
   [params.footer]
     since = 2026           # 版权起始年
-    runtimeSince = '2026-07-30'   # 站点运行倒计时起点（YYYY-MM-DD）
+    runtimeSince = '2026-08-02'   # 站点运行倒计时起点（YYYY-MM-DD）
     icp = '<a href="https://icp.gov.moe/?keyword=20260802" target="_blank" rel="noopener">萌ICP备20260802号</a>'
 
 # --- 首页公告栏（右侧域名列表）---
