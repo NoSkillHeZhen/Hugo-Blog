@@ -103,7 +103,7 @@ enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layout
   # --- 友链页 ---
   [params.links]
     layout = 'preview'                        # preview：卡片截图 | simple：长条头像+悬停预览
-    rssEnable = true                         # 友链页「朋友动态」RSS 展示（关闭时不拉取 RSS）
+    rssEnable = false                         # 友链页「朋友动态」RSS 展示（关闭时不拉取 RSS）
     footerEnable = false                      # 全站页脚友链列表展示
 
   # --- 动态页（每条动态：content/moments/*.md，front matter 仅需 date）---
