@@ -8,42 +8,58 @@ cover: "/hero/sp1.mp4"
 # linkGroups：友链分组，可增删组；每组 links 为友链卡片列表
 linkGroups:
   - name: 紧密相连
-    desc: 下面都是 AIOVTUE-雪 自己的网站哦，还有，建议这里只放八个哦~
+    desc: 特别关心友链位招租~
+    # 下面都是 AIOVTUE-雪 自己的网站哦，还有，建议这里只放八个哦~
     links:
-      - url: https://daily.yybb.us/
-        avatar: https://r2tc.20030327.xyz/file/博客/主题/1780655293662_avatar_me.jpg.PNG
-        name: AIOVTUE-雪
-        blog: AIOVTUE-雪
-        desc: 这和本站是一样的架构哦~
-        color: "#0078e7"
-        siteshot: https://r2tc.20030327.xyz/file/博客/友链/1782106866919_1780909850378_1780909790262.jpg
-        rss: https://daily.yybb.us/index.xml
+      - url: https://ri-nai.github.io/astro-blog/
+        avatar: https://ri-nai.github.io/astro-blog/imgs/avatar.jpg
+        name: Re-Nai
+        blog: Re-Nai
+        desc: 神明大人，为什么要教会我打开鸟笼的方法
+        color: "#6b8cff"     
+        siteshot: https://img.cdn1.vip/i/6a6ec862945c3_1785645154.webp
+
+      # - url: https://daily.yybb.us/
+      #   avatar: https://r2tc.20030327.xyz/file/博客/主题/1780655293662_avatar_me.jpg.PNG
+      #   name: AIOVTUE-雪
+      #   blog: AIOVTUE-雪
+      #   desc: 这和本站是一样的架构哦~
+      #   color: "#0078e7"
+      #   siteshot: https://r2tc.20030327.xyz/file/博客/友链/1782106866919_1780909850378_1780909790262.jpg
+      #   rss: https://daily.yybb.us/index.xml
      
      
-      - url: https://bk.yybb.us
-        avatar: https://r2tc.20030327.xyz/file/博客/主题/1780655293662_avatar_me.jpg.PNG
-        name: aiovtue'rin blog
-        blog: aiovtue'rin blog
-        desc: 这个是基于Rin的呢~
-        color: "#e07a96"
-        siteshot: https://r2tc.20030327.xyz/file/博客/友链/1782106905059_LqvQ7D2x.jpg
-        rss: https://bk.yybb.us/atom.xml
+      # - url: https://bk.yybb.us
+      #   avatar: https://r2tc.20030327.xyz/file/博客/主题/1780655293662_avatar_me.jpg.PNG
+      #   name: aiovtue'rin blog
+      #   blog: aiovtue'rin blog
+      #   desc: 这个是基于Rin的呢~
+      #   color: "#e07a96"
+      #   siteshot: https://r2tc.20030327.xyz/file/博客/友链/1782106905059_LqvQ7D2x.jpg
+      #   rss: https://bk.yybb.us/atom.xml
      
-      - url: https://20030327.xyz/
-        avatar: https://r2tc.20030327.xyz/file/博客/主题/1780655293662_avatar_me.jpg.PNG
-        name: AIOVTUE's blog
-        blog: AIOVTUE's blog
-        desc: 这是hugo的butterfly主题哦~
-        color: "#e07a96"
-        siteshot: https://r2tc.20030327.xyz/file/博客/友链/1782106913431_68a8432258cb8da5c842bfaf.jpg
-        rss: https://20030327.xyz/index.xml
+      # - url: https://20030327.xyz/
+      #   avatar: https://r2tc.20030327.xyz/file/博客/主题/1780655293662_avatar_me.jpg.PNG
+      #   name: AIOVTUE's blog
+      #   blog: AIOVTUE's blog
+      #   desc: 这是hugo的butterfly主题哦~
+      #   color: "#e07a96"
+      #   siteshot: https://r2tc.20030327.xyz/file/博客/友链/1782106913431_68a8432258cb8da5c842bfaf.jpg
+      #   rss: https://20030327.xyz/index.xml
  
         
   - name: 推荐网站
-    desc: 这里是最熟悉的小伙伴（位置不限量哦~）
+    desc: 记录那些有趣的灵魂
     type: simple
     links:
-      # 占位友链，可替换为真实申请者的信息          
+      # 占位友链，可替换为真实申请者的信息     
+      - url: https://ri-nai.github.io/astro-blog/
+        avatar: https://ri-nai.github.io/astro-blog/imgs/avatar.jpg
+        name: Re-Nai
+        blog: Re-Nai
+        desc: 神明大人，为什么要教会我打开鸟笼的方法
+        color: "#6b8cff"     
+        siteshot: https://img.cdn1.vip/i/6a6ec862945c3_1785645154.webp
       
       - url: https://example.com/xeu
         avatar: https://api.dicebear.com/7.x/adventurer/svg?seed=xeu
