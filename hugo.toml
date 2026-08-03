@@ -258,7 +258,7 @@ enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layout
 
   # --- 归档 / 标签页 ECharts 图表 ---
   [params.charts]
-    archivesStartMonth = '2024-03'   # 归档图起始月份
+    archivesStartMonth = '2026-07'   # 归档图起始月份
     tagsChartLength = 10             # 标签图显示 Top N
 
   # --- 文章页底部赞助按钮 ---
