@@ -18,6 +18,14 @@ linkGroups:
         desc: 神明大人，为什么要教会我打开鸟笼的方法
         color: "#6b8cff"     
         siteshot: https://img.cdn1.vip/i/6a6ec862945c3_1785645154.webp
+      
+      - url: https://zhuzihan.com/
+        avatar: https://zhuzihan.com/logo.jpg
+        name: SIMON
+        blog: SIMON
+        desc: 同是天涯沦落人 相逢何必曾相识
+        color: "#0078e7"     
+        siteshot: https://img.cdn1.vip/i/6a700a5e3a073_1785727582.webp
 
       # - url: https://daily.yybb.us/
       #   avatar: https://r2tc.20030327.xyz/file/博客/主题/1780655293662_avatar_me.jpg.PNG
@@ -60,6 +68,14 @@ linkGroups:
         desc: 神明大人，为什么要教会我打开鸟笼的方法
         color: "#6b8cff"     
         siteshot: https://img.cdn1.vip/i/6a6ec862945c3_1785645154.webp
+
+      - url: https://zhuzihan.com/
+        avatar: https://zhuzihan.com/logo.jpg
+        name: SIMON
+        blog: SIMON
+        desc: 同是天涯沦落人 相逢何必曾相识
+        color: "#0078e7"     
+        siteshot: https://img.cdn1.vip/i/6a700a5e3a073_1785727582.webp
       
       - url: https://example.com/xeu
         avatar: https://api.dicebear.com/7.x/adventurer/svg?seed=xeu
