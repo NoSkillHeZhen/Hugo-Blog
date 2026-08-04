@@ -310,7 +310,7 @@ enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layout
   # visitorEnable：文章访问量统计（需 provider=twikoo 且已配置 envId）
   # COMMENT_PLACEHOLDER 请在 Twikoo 管理后台「配置」中设置
   [params.twikoo]
-    envId = 'https://your-twikoo-url'
+    envId = 'https://vercel.hezhen.cc'
     visitorEnable = true   # 开启文章访问数量统计，基于twikoo
 
   # --- 留言页信封动画图片（文件在 static/envelope/）---
