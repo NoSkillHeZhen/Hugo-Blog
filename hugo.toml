@@ -268,11 +268,11 @@ enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layout
     description = '111真送吗'
     [[params.sponsor.methods]]
       name = '支付宝'
-      url = '/img/zfb.png'
+      url = '/img/zfb.jpg'
       color = '#00A3EE'
     [[params.sponsor.methods]]
       name = '微信支付'
-      url = '/img/weix.png'
+      url = '/img/wx.jpg'
       color = '#2DC100'
 
   # --- 文章版权声明（CC 协议）---
